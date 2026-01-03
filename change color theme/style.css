@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 52, 6);
+    transition: all ease 0.5s;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    padding-top: 100px;
+}
+
+button{
+    margin-left: 530px;
+    margin-top: 20px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: black;
+    padding: 20px;
+}
+
+
+@media only screen and ( max-width : 2560px ) {
+    button{
+        margin-left: 1180px;
+    }
+}
+
+@media only screen and ( max-width : 1440px ) {
+    button{
+        margin-left: 620px;
+    }
+}
+
+@media only screen and ( max-width : 1024px ) {
+    button{
+        margin-left: 410px;
+    }
+}
+
+@media only screen and ( max-width : 768px ) {
+    button{
+        margin-left: 290px;
+    }
+}
+
+@media only screen and ( max-width : 426px ) {
+    button{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and ( max-width : 376px ) {
+    button{
+        margin-left: 85px;
+    }
+}
+
+@media only screen and ( max-width : 320px ) {
+    button{
+        margin-left: 60px;
+    }
+}
+
