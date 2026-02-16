@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 54, 168);
+}
+
+.submitform{
+    width: 400px;
+    height: 410px;
+    margin-top: 100px;
+    margin-left: 430px;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.formname, .formemail, .formrollno, .formcourse, .formcampusname{
+    margin-left: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    color: brown;
+}
+
+.name, .rollno, .Email, .Course{
+    width: 95%;
+    margin-top: 5px;
+}
+
+select{
+    margin-top: 10px;
+}
+
+.submintbutton{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submintformdetails{
+   width: 400px;
+    height: 410px;
+    margin-top: 100px;
+    margin-left: 430px;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.displayflexbox{
+    display: flex;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.backbtn{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
