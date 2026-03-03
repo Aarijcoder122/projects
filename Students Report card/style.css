@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+p{
+    margin-left: 490px;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.displayflex{
+    display: flex;
+}
+
+#userinp{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.searchbutton{
+    color: white;
+    background-color: black;
+    height: 20px;
+    margin-left: 2px;
+}
+
+h4{
+margin-left: 40px;
+}
+
+.Rollno{
+    margin-left: 200px;
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+th{
+    border: 2px solid black; 
+    padding: 20px;
+    width: 30px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 20px;
+}
